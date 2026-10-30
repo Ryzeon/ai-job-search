@@ -119,3 +119,9 @@ company_research/*.json
 
 # Brainstorm mockups (superpowers visual companion) - never ship
 .superpowers/
+
+# Ryzeon fork: personal profile lives here, never in the tracked CLAUDE.md
+# (this fork is public, like every fork of a public repo).
+CLAUDE.local.md
+# Sidecar files from tools/ryzeon_cv.py (published CV id per payload)
+cv/*.id

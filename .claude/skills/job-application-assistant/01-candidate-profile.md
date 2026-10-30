@@ -2,6 +2,8 @@
 framework_version: 1.1.1
 ---
 
+> Ryzeon fork: the filled-in profile is in `CLAUDE.local.md` (gitignored). Read it as the master candidate profile.
+
 # Candidate Profile
 
 <!-- SETUP: This file is populated by running /setup -->

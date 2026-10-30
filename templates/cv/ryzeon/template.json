@@ -1,0 +1,45 @@
+{
+  "lang": "en",
+  "template": "compact",
+  "meta": {
+    "role": "[ROLE]",
+    "company": "[COMPANY]",
+    "documentTitle": "[NAME] - [ROLE] - [COMPANY]",
+    "note": "[Where the posting was found, salary range, remote policy, gaps]",
+    "ttlDays": 120,
+    "tags": ["[COMPANY]"]
+  },
+  "profile": {
+    "title": "[NAME] — [HEADLINE ROLE]",
+    "department": "[SUBTITLE]",
+    "affiliation": "[Skill • Skill • Skill]"
+  },
+  "sections": [
+    {
+      "title": "Summary",
+      "entries": [
+        {
+          "title": "[HEADLINE ROLE]",
+          "sub": "[Stack line]",
+          "bullets": ["[Bridge between the posting and the candidate, 3-4 bullets]"]
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "entries": [
+        {
+          "title": "[JOB TITLE]",
+          "sub": "[COMPANY]",
+          "location": "[LOCATION]",
+          "dates": "[Mon YYYY] – Present",
+          "bullets": ["[Action + technology + effect]"]
+        }
+      ]
+    },
+    { "title": "Selected Projects", "entries": [] },
+    { "title": "Skills", "entries": [{ "title": "[GROUP]", "bullets": ["[Skill, Skill]"] }] },
+    { "title": "Education", "entries": [{ "title": "[INSTITUTION]", "sub": "[DEGREE]", "dates": "[YYYY] – [YYYY]" }] },
+    { "title": "Languages", "entries": [{ "title": "[LANGUAGE]", "sub": "[LEVEL]" }] }
+  ]
+}

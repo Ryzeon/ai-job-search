@@ -3,6 +3,12 @@
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
+> **Ryzeon fork:** this fork is public, so the real candidate profile is **not** in this file.
+> It lives in `CLAUDE.local.md` (gitignored, loaded automatically by Claude Code). Treat
+> `CLAUDE.local.md` as the Candidate Profile section of this file everywhere the workflow
+> says "CLAUDE.md's Candidate Profile" — including the grounding audits in `/apply`.
+> CVs are built with the `ryzeon` template (cv.ryzeon.dev API), see `templates/cv/ryzeon/TEMPLATE.md`.
+
 ## Role
 This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)

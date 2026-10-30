@@ -2,6 +2,20 @@
 framework_version: 1.4.8
 ---
 
+<!-- BEGIN ACTIVE-TEMPLATE (managed by /add-template - do not edit by hand) -->
+> **Active template override: `ryzeon`**
+>
+> A custom template is active. Where this block conflicts with the stock guidance below, this block wins. Structural advice below (tailoring, page-budget, cutting rules) still applies.
+>
+> - **Template skeleton:** `templates/cv/ryzeon/template.json` — use this as the structural reference instead of the stock template
+> - **Manifest:** `templates/cv/ryzeon/TEMPLATE.md` — read this for style rules and known pitfalls before drafting
+> - **Source extension:** `.json` (not `.tex` unless the template's own toolchain is LaTeX)
+> - **Compile command:** `python3 ../tools/ryzeon_cv.py build main_<company>_<role>.json` (not the command named in the stock guidance below — `/apply`'s compile step must use this instead). Run it from the output directory. If it redirects to `build/`, the log is in `build/`, and `/apply`'s Step 5e cleanup must delete that `build/` folder too
+> - **Fonts:** defined by the web template chosen in `"template"`; nothing to install
+> - **Page limit:** exactly 2 page(s)
+> - **Output file:** `cv/main_<company>_<role>.json` / `cover_letters/cover_<company>_<role>.json`; copy any class/package/font files the template needs into the output directory, or reference them by relative path
+<!-- END ACTIVE-TEMPLATE -->
+
 # CV Templates and Tailoring Guide
 
 <!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
