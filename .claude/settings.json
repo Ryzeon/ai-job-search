@@ -25,7 +25,10 @@
       "Bash(python tools/fetch_page.py:*)",
       "Bash(python3 tools/fetch_page.py:*)",
       "Bash(python tools/posting_guard.py:*)",
-      "Bash(python3 tools/posting_guard.py:*)"
+      "Bash(python3 tools/posting_guard.py:*)",
+      "Bash(python3 tools/ryzeon_cv.py:*)",
+      "Bash(python3 ../tools/ryzeon_cv.py:*)",
+      "Bash(python3 .agents/skills/getonbrd-search/cli.py:*)"
     ],
     "ask": [
       "Edit(.claude/settings.json)",

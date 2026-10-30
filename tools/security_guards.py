@@ -101,6 +101,13 @@ ALLOWED_PERMISSIONS = {
     # Reads a file or stdin, writes only to an explicit --out, never fetches.
     "Bash(python tools/posting_guard.py:*)",
     "Bash(python3 tools/posting_guard.py:*)",
+    # Ryzeon fork: compile step of the `ryzeon` CV template. Talks only to the
+    # cv.ryzeon.dev API and writes the PDF next to the payload it was given.
+    # The `../` form is how /apply runs it from inside cv/.
+    "Bash(python3 tools/ryzeon_cv.py:*)",
+    "Bash(python3 ../tools/ryzeon_cv.py:*)",
+    # Ryzeon fork: Get on Board portal CLI (read-only GETs, stdout only).
+    "Bash(python3 .agents/skills/getonbrd-search/cli.py:*)",
 }
 
 # Rules that must stay in .claude/settings.json permissions.ask. An ask rule
